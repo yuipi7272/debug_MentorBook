@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MentorBook" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -26,7 +26,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="arrowtriangle.left.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="mae" destination="BYZ-38-t0r" eventType="touchUpInside" id="ClE-pF-jj2"/>
+                                    <action selector="mae" destination="BYZ-38-t0r" eventType="touchUpInside" id="hiu-wA-0Pr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="コース" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvQ-Vb-JTg">
@@ -50,7 +50,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="arrowtriangle.right.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="tugi" destination="BYZ-38-t0r" eventType="touchUpInside" id="46f-px-Wlo"/>
+                                    <action selector="tugi" destination="BYZ-38-t0r" eventType="touchUpInside" id="DES-gu-f8D"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -58,9 +58,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="courseLabel" destination="jvQ-Vb-JTg" id="SKL-mH-GwD"/>
-                        <outlet property="imageView" destination="4pt-So-0NO" id="tw9-Mr-Z5e"/>
-                        <outlet property="nameLabel" destination="ijW-hF-ZLo" id="Hoo-aB-ywN"/>
+                        <outlet property="courseLabel" destination="jvQ-Vb-JTg" id="kmd-Pa-HSA"/>
+                        <outlet property="imageView" destination="4pt-So-0NO" id="vTf-Mz-KN2"/>
+                        <outlet property="nameLabel" destination="ijW-hF-ZLo" id="jl0-VJ-bdo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 		
 		mentorArray.append(Mentor(name: "ながた", course: "iPhone", imageName: "nagata.jpg"))
 		mentorArray.append(Mentor(name: "りょう", course: "Unity", imageName: "ryo.jpg"))
-		mentorArray.append(Mentor(name: "たいてぃ", course: "WebS,WebD", imageName: "taiti.jpg"))
+        mentorArray.append(Mentor(name: "たいてぃ", course: "WebS,WebD", imageName: "taithi.jpg"))
 
 		setUI()
 	}
@@ -38,13 +38,14 @@ class ViewController: UIViewController {
 		index = index - 1
 		if index < 0 {
 			// indexの値が0より小さくなったらindexをmentorArrayの数 - 1にする
-			index = mentorArray.count - 1
+            index = mentorArray.count - 1
 		}
+        setUI()
 	}
 	
 	@IBAction func tugi() {
 		index = index + 1
-		if mentorArray.count >= index {
+		if mentorArray.count <= index {
 			// indexの値がmentorArrayの数以上になったらindexを0にする
 			index = 0
 		}
